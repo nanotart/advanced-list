@@ -11,6 +11,26 @@
   padding: 0;
 }
 
+#container {
+  width: 80%;
+  max-width: 500px;
+  padding: 20px; /* this is for margins basically */
+  background: #fafafa;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 5px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    color: #555;
+}
+
 .list-item {
   list-style: none;
 }
