@@ -6,15 +6,13 @@
   <script defer src="script.js"></script>
 </head>
 <body>
-  <ul id="list">
-    
-  </ul>
-  
-  <form id="new-todo-form">
-    <label for="todo-input">New Todo</label>
-    <input type="text" id="todo-input">
-    <button type="submit">Add Todo</button>
-  </form>
+  <div id="container">
+    <form id="new-todo-form">
+      <label for="todo-input">New Todo</label>
+      <input type="text" id="todo-input">
+      <button type="submit">Add Todo</button>
+    </form>
+  </div>
 
   <!-- allows you to write out HTML that is not rendered -->
   <template id="list-item-template">
@@ -26,5 +24,9 @@
       <button data-button-delete>Delete</button>
     </li>
   </template>
+
+  <ul id="list">
+    
+  </ul>
 </body>
 </html>
